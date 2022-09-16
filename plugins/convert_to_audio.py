@@ -64,7 +64,7 @@ async def convert_to_audio(bot, update):
         )
         if the_real_download_location is not None:
             a=await bot.edit_message_text(
-                text=f"Video Download Successfully, now trying to convert into Audio. \n\n⌛️Wait for some time.",
+                text=f"𝑽𝒊𝒅𝒆𝒐 𝑫𝒐𝒘𝒏𝒍𝒐𝒂𝒅 𝑺𝒖𝒄𝒄𝒆𝒔𝒔𝒇𝒖𝒍𝒍𝒚, 𝒏𝒐𝒘 𝒕𝒓𝒚𝒊𝒏𝒈 𝒕𝒐 𝒄𝒐𝒏𝒗𝒆𝒓𝒕 𝒊𝒏𝒕𝒐 𝑨𝒖𝒅𝒊𝒐. \n\n⌛️𝑾𝒂𝒊𝒕 𝒇𝒐𝒓 𝒔𝒐𝒎𝒆 𝒕𝒊𝒎𝒆.",
                 chat_id=update.chat.id,
                 message_id=ab.message_id
             )

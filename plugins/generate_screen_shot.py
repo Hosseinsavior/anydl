@@ -63,7 +63,7 @@ async def generate_screen_shot(bot, update):
             )
         else:
             await bot.edit_message_text(
-                text=f"Video Downloaded Successfully.\n Now Generating Screenshots📸.",
+                text=f"ᴠɪᴅᴇᴏ ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ.\n ɴᴏᴡ ɢᴇɴᴇʀᴀᴛɪɴɢ ꜱᴄʀᴇᴇɴꜱʜᴏᴛꜱ📸.",
                 chat_id=update.chat.id,
                 message_id=a.message_id
             )
@@ -87,7 +87,7 @@ async def generate_screen_shot(bot, update):
             media_album_p = []
             if images is not None:
                 i = 0
-                caption = "Join : @AGProjects \nFor the list of Our Telegram Bots"
+                caption = "Join : @danisooper \nFor the list of Our Telegram Bots"
                 for image in images:
                     if os.path.exists(image):
                         if i == 0:
